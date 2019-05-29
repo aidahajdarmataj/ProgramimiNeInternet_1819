@@ -1,0 +1,309 @@
+#nav {
+	
+      width: 100%;
+      float:  right;
+      margin: 0 0 3em 0;
+      padding: 0;
+      list-style: none;
+      background-color:  silver;
+      border-bottom: 1px solid #ccc; 
+      border-top: 1px solid #ccc; }
+   #nav li {
+      float: left; }
+   #nav li a {
+      display: block;
+      padding: 8px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #069;
+      border-right: 1px solid #ccc; }
+   #nav li a:hover {
+      color:  orange;
+      background-color: #fff; }
+      
+      
+iframe{
+	 margin-top:10px;
+	 margin-left:200px;
+	 
+	 
+	 
+	  
+}
+
+
+.majte { width: 568px;
+		 float: left;
+		 text-align: justify; 
+		 }    
+
+.majte h4 { color: #FF4800;
+font-size: 17px; letter-spacing: -1px; font-weight: 100;
+ padding : 15px 0 15px 0; 
+ border:3px solid #a1a1a1; 
+ padding:10px 30px; background:#dddddd; width:500px; border-radius:25px; }
+
+
+.djathte {
+width: 160px;
+float: right;
+padding: 10px;
+border-left: 1px solid #bbb;
+font-size: 12px;
+}
+.djathte ul {
+list-style-type: none;
+padding: 5px 10px 10px 10px;
+}
+.djathte h2 {
+height: 30px;
+font-size: 12px;
+color:  silver;
+line-height: 30px;
+}
+.djathte a { text-decoration:  underline ; color:orange;}
+
+/* Footer */
+#footer { bord*er-top: 1px solid #bbb;
+	   text-align: center; 
+	   color: #333; font-size: 11px; padding: 0 0 10px 0; } 
+
+
+@charset "utf-8";
+
+/*
+Design by James Brand @ http://www.dreamweavertutorial.co.uk
+*/
+
+
+
+body {
+	background-image: url('bg/B-G.jpg');
+	
+}
+
+#prapavija{
+	
+    background-image: url('bg/qa.jpg');
+   
+	/*
+	width:1000px;
+	height:auto;
+	padding:30px 30px 50px 30px;
+	margin-left:30px;
+	margin-right:auto;
+	margin-top:25px;
+	border:1px solid;
+*/
+}
+
+h4{
+		color:#39F;
+		font-size:16px;
+	 	text-align:center;
+}
+
+#mbeshtjelles {
+	
+	background:#999;
+	width:1060px;
+	height:auto;
+	padding:30px 30px 50px 30px;
+	margin-left:66px;
+	margin-right:auto;
+	margin-top:25px;
+	border:1px solid;
+		
+}
+
+#titulli {
+	background:#06C;
+	color:#FFF;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align:center;
+	margin-bottom:15px;
+	-moz-box-shadow: 15px 15px 5px #000;
+	-webkit-box-shadow: -9px -9px 20px #000;
+	
+	
+}
+
+
+.clearFloat {
+	clear:both;
+	
+}
+
+
+#kutia {
+	margin-top:50px;	
+	width:1026px;
+	height:700px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+
+}
+
+
+.imgHolder{
+	background:#FFF;
+	height:190px;
+	width:250px;
+	float:left;
+	display:inline;
+	padding:20px 20px 60px 20px;
+	margin:0px 25px;
+	border:1px grey solid;
+	-moz-box-shadow: 0px 0px 90px #03C;
+	-webkit-box-shadow: 0px 0px 90px #03C;
+}
+
+.img {
+	height:189px;
+	width:249px;
+	border:1px solid #333;
+	padding:1px;
+}
+
+
+.TitulliFotos {
+	position:absolute;
+	text-align:center;
+	width:200px;
+	padding:0px 25px;
+	top:230px;
+}
+
+.TitulliFotos2 {
+	position:absolute;
+	text-align:center;
+	width:200px;
+	padding:0px 25px;
+	top:500px;
+}
+.TitulliFotos3 {
+	position:absolute;
+	text-align:center;
+	width:200px;
+	padding:0px 25px;
+	top:773px;
+}
+
+
+
+.img h3 {
+	font-size:15px;	
+	font-family:"Comic Sans MS", cursive;
+	padding:0;
+	margin:0;
+}
+
+
+
+
+
+
+
+@charset "utf-8";
+html, body, div, h3, p, ul, li, img {
+	margin:0;
+	padding:0;
+}
+article, aside, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	 background-image :   url('bg/213.jpg');
+	font-family: " Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.kutia {
+	width: 700px;
+	margin: 30px auto 0;
+}
+header {
+	text-align:center;
+	background: #42517f;
+	border-bottom: 1px solid #000;
+}
+h3 {
+	color: orange;
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size: 16px;
+	word-spacing: 1px;
+	text-shadow: 1px 1px 2px #000;
+}
+#përmbajtja {
+	background: orange ;
+	background:linear-gradient(to top, #848c9c 0%, #687080 50%, #a7b1c5 100%);
+	background:-webkit-linear-gradient(bottom, #848c9c 0%, #687080 50%, #a7b1c5 100%);
+	padding-top: 0px;
+	padding-bottom: 0px;
+	overflow: hidden;
+}
+.galeria {
+	width: 800px;
+	margin: auto;
+}
+.galeria tr{
+	list-style: none;
+}
+.galeria td{
+	float: left;
+	margin: 10px;
+}
+.galeria img {
+	display: block;
+	padding: 5px;
+	background: #42517f;
+	border: 1px solid #99adeb;
+	box-shadow: 1px 1px 2px #000;
+}
+.galeria img:hover {
+	display: 1px solid #fff;
+}
+
+	
+
+footer {
+	background: #630;
+ 	width: 645px;
+	margin-top: 5px;
+	margin-left: 1px;
+	
+}
+footer p {
+	color: #fff;
+	text-align:center;
+	font-size: 11px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.fundi {
+	margin-left:66px;
+	margin-top: 5px;
+	width: 	1122px;
+	
+}
+
+
+
+table{
+	 margin-top:auto;
+}
+
+
+ form{
+	 margin: 100px;
+	 margin-left: 370px;
+	 width: 550px;
+	 
+	  text-align: center;
+	 background-image:  url('bg/aa.jpg');
+}
+	
+	
+	
+

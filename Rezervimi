@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Rezervo | Makina Juaj e Preferuar |</title>
+
+<link rel="stylesheet" type="text/css" href=  "stili.css">
+
+</head>
+
+<body>
+<img src="images/free-wallpaper-11.jpg" width="1347px" height="320px">
+
+
+<ul id="nav">
+      <li><a href= "index.html">Ballina</a></li>
+      <li><a href=" rezervo.html">Rezervo </a></li>
+      <li><a href= "veturaShitje.html">Veturat Ne Shitje </a></li>
+      <li><a href= "kontakti.html">Kontakti</a></li>
+   </ul>
+
+
+
+<hr>
+
+
+
+<div class="kutia">
+  <h3>  Shiko te gjitha Fotot </h3>
+  
+  <h4> Nese deshiron ta rezervosh nje veturë atehere vetem kliko mbi fotografine e vetures te cilen deshiron ta rezervosh.
+  Pastaj hapet nje formular i cili duhet te plotesohet me te dhenat e juaja.</h4>
+  <section id="pÃ«rmbajtja">
+    <div class="galeria">
+      <table>
+     <tr>
+   <td>  <a href="forma.html"><img src=  "Projekti i Radhes/audi.jpg" width="550" height="350" alt="Fotoja1"></a>
+   <div class="majte"> <h3>Audi A4</h3><h4>
+   <ul>
+<li><strong>Stili i Trupit:</strong> Station Wagon (5 vende) </li>
+<li><strong>Kilometra:</strong> 14.990 km </li>
+<li><strong>Regjistrimi i parë:</strong> 12/2013</li> 
+<li><strong>Fuqia: </strong>180 kW (245 hp) </li>
+<li><strong>Karburanti: </strong>Diesel (filtra grimcave diesel) </li>
+<li><strong>Konsumi:</strong> 5.9 l/100 km (të kombinuar) </li>
+<li><strong>Ngjyra :</strong> E kalter e mbyllet  </li>
+<li><strong>Brenda: </strong>lëkurë dhe pëlhurë </li>
+<li><strong>Cmimi :</strong> 30 euro per 24 ore. </li></ul>
+</h4></div></td>
+
+<td><a href="forma.html"> <img src="Projekti i Radhes/audiA3.JPG" width="550" height="350" alt="Fotoja2"></a>
+     <div class="majte"> <h3>Audi A3</h3><h4>
+   <ul>
+<li><strong>Stili i Trupit:</strong> Station Wagon (5 vende) </li>
+<li><strong>Kilometra:</strong> 14.990 km </li>
+<li><strong>Regjistrimi i parë:</strong> 12/2013</li> 
+<li><strong>Fuqia: </strong>180 kW (245 hp) </li>
+<li><strong>Karburanti: </strong>Diesel (filtra grimcave diesel) </li>
+<li><strong>Konsumi:</strong> 5.9 l/100 km (të kombinuar) </li>
+<li><strong>HU / AU:</strong> I ri </li>
+<li><strong>Exterior Color:</strong> White metalike </li>
+<li><strong>Brendshme: </strong>lëkurë dhe pëlhurë </li>
+</ul>
+</h4></div>
+     </td> 
+     
+

@@ -6,6 +6,7 @@
 	
 		
 	// form data
+	if(isset())
 	$fullname = strip_tags($_POST['fullname']);
 	$username = strtolower(strip_tags($_POST['username']));
 	$password = strip_tags ($_POST['password']);

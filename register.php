@@ -1,12 +1,15 @@
 <?php
 
 	echo "<h1> Regjistrohu</h1>";
+
 	
+
+if(isset($_POST['submit'])) {
 	$submit = $_POST['submit'];
 	
 		
 	// form data
-	if(isset())
+	// if(isset())
 	$fullname = strip_tags($_POST['fullname']);
 	$username = strtolower(strip_tags($_POST['username']));
 	$password = strip_tags ($_POST['password']);
@@ -18,11 +21,12 @@
 	{
 		
 		//open database	
-		$connect = mysql_connect("localhost","root","");
-		mysql_select_db("phplogin"); // select database phplogin
+		$connect = mysqli_connect("localhost","root","");
+		mysqli_select_db("phplogin"); // select database phplogin
 		
-		$namecheck = mysql_query("SELECT username FROM users WHERE username='$username'");
-		$count = mysql_num_rows($namecheck);
+		$namecheck = mysqli_query("SELECT username FROM users WHERE username='$username'");
+
+		$count = mysqli_num_rows($namecheck);
 		
 		if ($count !=0)
 		{
@@ -64,7 +68,7 @@
 				
 				
 				
-				$queryreg = mysql_query("
+				$queryreg = mysqli_query("
 				
 				INSERT INTO users VALUES ('','$username','$password','$fullname','$date')
 				
@@ -89,6 +93,9 @@
 		
 			
 	}
+}
+
+
 ?>
 
 <html>

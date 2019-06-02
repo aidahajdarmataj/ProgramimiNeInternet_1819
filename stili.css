@@ -51,6 +51,10 @@ padding: 10px;
 border-left: 1px solid #bbb;
 font-size: 12px;
 }
+#quotes{
+	 background-color: lightblue;
+	 font-style: italic;
+}
 .djathte ul {
 list-style-type: none;
 padding: 5px 10px 10px 10px;

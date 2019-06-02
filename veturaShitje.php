@@ -43,7 +43,7 @@
 
 
 <div id="prapavija"><!-- end holder -->
-	<?php
+
 <?php
 echo strrev("Veturat me te reja i gjeni ne auto sallonin tone ne Rent a Car Service !"); // Mbrapsht 
 ?>

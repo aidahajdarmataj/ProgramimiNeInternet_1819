@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Mbushja e Formës</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="reportstyle.css"/>
+    </head>
+    <body>
+        <h2>Forma duhët te mbushet saktë. </h2>
+
+<p>Pytësori? </p>
+
+
+<form method="post" action="report.php">
+
+	<label for="emrijuaj"> Emri: </label>
+    <input type="text" id="emrijuaj"  name="emrijuaj" required/> <br/>
+    
+    <label for="mbiemrijuaj"> Mbiemri: </label>
+    <input type="text" id="mbiemrijuaj"  name="mbiemrijuaj" required/> <br/>
+    
+	<label for="emailjuaj">E-mail Adresa Juaj? </label>
+    <input type="email" id="emailjuaj"  name="emailjuaj" required/> <br/>
+    
+	<label for="numritelefonit">Numri i Telefonit: </label>
+    <input type="number" id="numritelefonit"  name="numritelefonit" required/> <br/>
+	
+    <label for="adresajuaj"> Adresa e Juaj: </label>
+    <input type="text" id="adresajuaj"  name="adresajuaj" required/> <br/>
+    
+     <label for="modelivetures"> Modeli i Vetures: </label>
+    <select name="modelivetures "> 
+        <option value="Selekto">Selekto Listën</option>
+  	<option value="Audi Q7"> Audi Q7 </option>
+  	<option value="Mercedes Benz"> Mercedes Benz </option>
+  	<option value="Golf6"> Golf6 </option>
+  	<option value="Opel Zafira"> Opel Zafira </option>
+        <option value="Bora"> Bora </option>
+        <option value="Jetta"> Jetta </option>
+ 	<option value="BMW X3"> BMW X3 </option>
+	<option value="BMW 5"> BMW 5 </option>
+	<option value="Land Rover"> Land Rover </option>
+   
+   
+  	</select> <br/>
+   
+  
+   
+   <label for="kerkesa">Ndonjë kerkesë tjeter? </label>
+   <textarea id="kerkesa" name="kerkesa"> </textarea> <br/>
+    <p>
+    <input type="submit" value="Dërgo Kërkesen" name="submit"/> 
+    
+   
+    
+    
+    
+   </form>
+    </body>
+</html>

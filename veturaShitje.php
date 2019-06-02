@@ -43,8 +43,12 @@
 
 
 <div id="prapavija"><!-- end holder -->
-  <h4>Veturat  me te reja i gjeni ne autosallonin tone ne <strong>Rent a Car "Service"</strong></h4>
-
+	<?php
+<?php
+echo strrev("Veturat me te reja i gjeni ne auto sallonin tone ne Rent a Car Service !"); // Mbrapsht 
+?>
+ 
+?>
   <div id="kutia">
     <div class="imgHolder">
       <div class="img"> <a href="AudiGaleria.html"><img src="images/Audi-Q7.jpg" width="249" height="189" /></a>

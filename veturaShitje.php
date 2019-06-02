@@ -14,10 +14,10 @@
 <img src="images/free-wallpaper-11.jpg" width="1347px" height="320px">
 
 <ul id="nav">
-  <li><a href= "index.html">Ballina</a></li>
+  <li><a href= "index.php">Ballina</a></li>
 	<li><a href= "veturaShitje.php">Vetura ne shitje</a></li>
 	<li><a href=" rezervo.html">Rezervo </a></li>
-  <li><a href= "kontakti.html">Kontakti</a></li>
+  <li><a href= "kontakti.php">Kontakti</a></li>
   <li><a href="register.php">Regjistrohu</a></li>
    </ul>
 

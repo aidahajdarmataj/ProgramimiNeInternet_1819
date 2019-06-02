@@ -27,10 +27,16 @@ iframe {
   <li><a href= "kontakti.php">Kontakti</a></li>
   <li><a href="register.php">Regjistrohu</a></li>
    </ul>
-
-
+<hr>
+<div id="quotes">
+<?php
+$txt = "I've always been asked, 'What is my favorite car?' and I've always said 'The next one.'";
+echo "-> $txt!";
+?>
+</div>
 
 <hr>
+
 <div id="php">
   <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
     Name: <input type="text" name="fname">
@@ -49,7 +55,6 @@ iframe {
   }
   ?>
 </div>
-
 
 
 
